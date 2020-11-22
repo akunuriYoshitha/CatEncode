@@ -1,0 +1,25 @@
+{
+    "id": "A90ECA7E",
+    "path": "~/CatEncode/R/CatEncode.R",
+    "project_path": "R/CatEncode.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1592488199939.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "244,34",
+        "scrollLine": "239"
+    },
+    "folds": "49|3|215|2|\n",
+    "lastKnownWriteTime": 1592576700,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1592576700082,
+    "read_only": false,
+    "read_only_alternatives": []
+}

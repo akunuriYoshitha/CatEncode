@@ -1,0 +1,25 @@
+{
+    "id": "F666E837",
+    "path": "~/CatEncode/R/CatEncodePrerequisites.R",
+    "project_path": "R/CatEncodePrerequisites.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1592545735126.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "252,69",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1592496321,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1592496321,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,25 @@
+{
+    "id": "8E122E74",
+    "path": "~/CatEncode/R/CatEncodeFit.R",
+    "project_path": "R/CatEncodeFit.R",
+    "type": "r_source",
+    "hash": "4294818837",
+    "contents": "",
+    "dirty": false,
+    "created": 1592545318314.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "75,16",
+        "scrollLine": "65"
+    },
+    "folds": "9|1|13|0|\n25|1|42|0|\n54|1|58|0|\n",
+    "lastKnownWriteTime": 1592551963,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1592551963038,
+    "read_only": false,
+    "read_only_alternatives": []
+}

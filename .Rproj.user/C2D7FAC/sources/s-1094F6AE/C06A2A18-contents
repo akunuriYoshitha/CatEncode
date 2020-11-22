@@ -1,0 +1,26 @@
+missing_treated_77cols <- read.csv("//172.16.1.23/sli/Yoshitha/HousePricing/missing_treated_77cols.csv", row.names=1)
+data <- missing_treated_77cols
+data$dvcol <- data$SalePrice
+data$SalePrice <- NULL
+
+params$df <- data
+
+qq <- data.frame(mapply(date.columns, missing_treated[, date_cols], date_cols))
+qq1 <- do.call(cbind.data.frame, qq)
+
+
+data <- read.csv("//172.16.1.23/sli/Yoshitha/caterpillar-tube-pricing/data/competition_data/train_set.csv")
+# data <- data[,!colnames(data) %in% c("tube_assembly_id", "quote_date")]
+rmarkdown::render('C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.Rmd', output_format = "html_document", params = list(df = data, dv = "cost", ignore = "tube_assembly_id", date_cols = "quote_date", freeze_cols = NULL, cat_metric = NULL))
+browseURL("C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.html")
+
+
+data <- read.csv("//172.16.1.23/sli/Yoshitha/HousePricing/train.csv")
+# data <- data[,!colnames(data) %in% c("tube_assembly_id", "quote_date")]
+rmarkdown::render('C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.Rmd', output_format = "html_document", params = list(df = data, dv = "SalePrice", ignore = c("X"), date_cols = c( "YearBuilt", "YearRemodAdd", "GarageYrBlt", "YrSold"), freeze_cols = NULL, cat_metric = NULL))
+browseURL("C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.html")
+
+
+data <- read.csv("//172.16.1.23/sli/Yoshitha/otto-group-product-classification-challenge/train.csv")
+rmarkdown::render('C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.Rmd', output_format = "html_document", params = list(df = data, dv = "target", ignore = c("id"), date_cols = NULL))
+browseURL("C:/Users/yoshitha.akunuri/Documents/RMD/FeatureCreation_Tab.html")
