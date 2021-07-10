@@ -1,0 +1,34 @@
+Walk me through your CV
+
+Familearity with R
+-- Difference between a factor and a vector
+-- advatage of using apply famaly of functions
+-- Deference between an obserEvent & an Reactive - where would yopu use what.
+-- Challenges you faced while using shiny & its limitations.
+
+Analytical Workbench 
+-- Steps in preprocessing and modelling
+check his knowledge on multiple techniques, their applicability and limitations
+--How to do missing value treatment, Outlier tratment, when to transform & how to transform? - 
+--When to use and Types of encoding methods? - 
+--When to use and Types of binning methods? - 
+--Difference between bagging and boosting - 
+--Hyper parameter tuning - Available methods to tune - Bootstrapping vs Cross Validation
+-- Boosting vs tree based models (Random Forest) - 
+-- Feature Selection and its effect on different models
+--What is a confusion matrix?
+--How do measure performance of models - Regression & Classification
+--Types of clustering - when do u chose which approach for clustering
+
+Text Analytics Understanding:
+-- Give BRT case study
+
+
+Business case study
+-- Ice Cream problem
+
+Puzzles
+-- Coin Problem
+-- Bullet Gun Problem
+-- Light Bulb problem
+

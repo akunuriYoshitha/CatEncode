@@ -1,0 +1,24 @@
+{
+    "id": "C06A2A18",
+    "path": "//172.16.1.23/sli/rendermkdn.R",
+    "project_path": null,
+    "type": "r_source",
+    "hash": "4278124332",
+    "contents": "",
+    "dirty": false,
+    "created": 1598286673222.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "19,126",
+        "scrollLine": "11"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1598546389,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1598546389,
+    "read_only": false,
+    "read_only_alternatives": []
+}
